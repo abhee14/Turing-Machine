@@ -22,8 +22,7 @@ states).
 Here is a sample encoding string from one of the testcases, that represents the running
 of a turing machine
 
-#q0,a->qa,a,R#q0,a->q1,a,R#q0,b->q1,b,R#q0,_->q1,_,R#q1,b->q1,b,R
-#q1,_->q1,_,R#q1,a->qr,a,R#q1,b->qr,b,R##ab#
+#q0,a->qa,a,R#q0,a->q1,a,R#q0,b->q1,b,R#q0,_->q1,_,R#q1,b->q1,b,R#q1,_->q1,_,R#q1,a->qr,a,R#q1,b->qr,b,R##ab#
 
 An encoding string < M, w > is a single line with no more than 1024 characters. The blank
 symbol ⊔ is denoted by symbol _ in an encoding string. The empty string w = ε is denoted by
